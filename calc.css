@@ -1,0 +1,169 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mycalc1{
+    /* border: 3px solid rgb(17, 0, 255); */
+width: 70%;
+/* height: 500px; */
+margin: auto;
+}
+#products{
+        /* border: 3px solid red; */
+        cursor: pointer;
+
+}
+
+.product{
+    /* border: 3px solid red; */
+margin:20px auto;
+text-align: center;
+}
+.input-quantity{
+    width: 200PX;
+    height: 50px;
+padding: 5px 10px;
+border-radius: 10px;
+/* border: none; */
+}
+.CalcTotal{
+/* border: 3px solid red; */
+width: 400PX;
+padding: 20px 0;
+font-size: 25px;
+font-weight: bold;
+margin:70px auto 20px;
+text-align: center;
+/* background-color: rgba(253, 248, 253, 0.959); */
+border-radius: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+.CalcTotal button{
+all: unset;
+/* border: 3px solid red; */
+padding: 25px;
+border-radius: 10px;
+background-color: rgb(89, 100, 254);
+color: white;
+transition: all 0.5s;
+}
+
+.CalcTotal button:hover{font-size: 27px;}
+
+
+
+#myfield{
+    /* border: 3px solid red; */
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ====================================================================== */
+
+.mycalc2{
+    /* border: 3px solid red; */
+width: 70%;
+margin:0 auto;
+text-align: center;
+font-size: 30px;
+line-height: 2;
+}
+
+#fff{
+width: 200px;
+height: 30px;
+border-radius: 10px;
+padding: 5px 10px;
+}
+
+/* ===================================================================== */
+
+
+#myclock{
+    /* border: 3px solid red; */
+    color: red;
+width: 50%;
+margin:50px auto;
+font-size: 35px;
+padding: 20px;
+text-align: center;
+line-height: 2;
+box-shadow: 0 0 20px rgba(255, 255, 0, 0.634);
+}
+
+
+
+/* ===================================================== */
+
+.reg{
+       /* border: 3px solid red; */
+       width: 500px;
+color: blue;
+        text-align: center;
+font-size: 40px;
+margin: 40px auto;
+display: flex;
+justify-content: space-around;
+}
+
+#myinput,#myinputpass{
+      /* border: 3px solid red; */
+height: 30px;
+margin:auto ;
+padding: 3px 5px;
+}
+
+.succes{ border: 3px solid green; outline: none; }
+.error{  border: 3px solid red;  outline: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #fff::selection{
+    color: none;
+    background-color: none;
+    scrollbar-highlight-color: none;
+} */
+/* #fff ,label:focus{
+    outline: none !important;
+    box-shadow: none !important;
+user-select: none !important;    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
